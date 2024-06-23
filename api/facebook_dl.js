@@ -16,7 +16,7 @@
     cookie: "locale=vi_VN;vpd=v1%3B716x360x2;sb=HMooYiDm9Kh7aSMOcHelM8N4;dpr=0.75;datr=fdvlYvC9Fvk5PmP1OdUVJPdA;c_user=100051638101791;xs=34%3AMzGftV8OZsIaDA%3A2%3A1659444562%3A-1%3A6302%3A%3AAcUIK2FToCJUpKC7OP1D94fb3WLYZWmBWyamfYT9Nw;wd=426x697;fr=0u2wnFW1rdRrMmV2H.AWVZwiKSz57GiBld87K4gqE44dg.Bi6S0Q.22.AAA.0.0.Bi6S07.AWX_71t969g;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1659448690469%2C%22v%22%3A1%7D;"
   };
 
-var cookie = "sb=FocgZuUE4pivk0MUZQ-8fLaF;c_user=1640221628;oo=v1%7C3%3A1713420713;datr=qbkgZmKw3k2jr2gGXk7xF0mV;ps_n=1;ps_l=1;wd=952x946;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1713923028052%2C%22v%22%3A1%7D;xs=18%3AVbNgMa2aUuOm2A%3A2%3A1713408147%3A-1%3A10624%3A%3AAcW2Ngt_KOq-Gyl5bvchqNPX2im428Ge_OpuJ3h1kbA;"
+var cookie = "sb=rAx6ZZ7NlUYy0clzOq8gMtRJ;ps_n=1;ps_l=1;wd=1876x956;c_user=100004752336149;datr=CUt4Zrx1iTbaePmXVBvXn2vg;i_user=61556666968083;xs=19%3AZQpM9T-2Y_G5Ig%3A2%3A1719159559%3A-1%3A5144%3A%3AAcUaTjBfQN3ZOQWP3Ys33fwsIjfzIWnwE13DMtOwmQ;fr=1q4sz7S7vYGXC2vI2.AWWsfPwV1bB7gYR7S0xUz46E6n8.BmeLVj..AAA.0.0.BmeLVj.AWX_Q9OE-UQ;"
 const facebookStoryDL = async function (url) {
    var wrap = function getValue(callbackId) {
     return JSON.parse('{"text": "' + callbackId + '"}').text;
